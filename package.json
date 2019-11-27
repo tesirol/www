@@ -1,0 +1,10 @@
+{
+  "name": "tesirol-www",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tesirol/www",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.10.2"
+  }
+}
