@@ -1,5 +1,5 @@
-import LogRocket from 'logrocket';
+import LogRocket from "logrocket";
 
 export default () => {
-  LogRocket.init('boosnx/tesirol-www');
-}
+  LogRocket.init("boosnx/tesirol-www");
+};

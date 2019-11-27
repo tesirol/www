@@ -1,18 +1,17 @@
+function createPlugins(env) {
+  const plugins = [];
 
-function plugins (env) {
-  const plugins = []
+  const prodOnly = [{ src: "~/plugins/log-rocket.js", mode: "client" }];
 
-  const prodOnly = [{src: '~/plugins/log-rocket.js', mode: 'client'}]
+  if (env == "production") plugins.push(prodOnly);
 
-  if (env == 'production') plugins.push(prodOnly)
-
-  return plugins
+  return plugins;
 }
 
-const plugins = plugins(process.env.NODE_ENV)
+const plugins = createPlugins(process.env.NODE_ENV);
 
 export default {
   plugins,
-  mode: 'universal',
-  srcDir: 'src'
-}
+  mode: "universal",
+  srcDir: "src"
+};
