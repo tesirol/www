@@ -7,5 +7,8 @@
   "dependencies": {
     "logrocket": "^1.0.4",
     "nuxt": "^2.10.2"
+  },
+  "scripts": {
+    "generate": "nuxt generate"
   }
 }
