@@ -6,7 +6,7 @@ function createPlugins(env) {
 
   const prodOnly = [createPlugin(LogRocket)];
 
-  if (env == "production") plugins.push(prodOnly);
+  if (env == "production") plugins.push(...prodOnly);
 
   return plugins;
 }
