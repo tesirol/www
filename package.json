@@ -9,6 +9,7 @@
     "nuxt": "^2.10.2"
   },
   "scripts": {
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "dev": "nuxt"
   }
 }
