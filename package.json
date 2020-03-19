@@ -5,7 +5,7 @@
   "repository": "git@github.com:tesirol/www",
   "license": "MIT",
   "dependencies": {
-    "logrocket": "^1.0.4",
+    "logrocket": "^1.0.6",
     "logrocket-vuex": "^0.0.3",
     "nuxt": "^2.10.2"
   },
